@@ -34,3 +34,14 @@ nav{
     color: white;
     width: 15rem;
 }
+
+.container{
+    width: 100%;
+    padding: 15%;
+}
+
+.form{
+    background: #ffff;
+    margin-top: 150px;
+    padding: 3px;
+}

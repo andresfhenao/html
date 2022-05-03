@@ -5,84 +5,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Prueba</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJ
+    DkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"></head>
-<body onload="prueba()">
+      
+   </head>
+    <body onload="prueba()">
 
-    <nav class="navbar bg-primar p-0">
-        <div class="container-fluid  p-3">
-            <a class="navbar-brand">Big Sellers</a>
-            <a href="" class="text-white">Sobre Nosotros</a>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-            <img src="images/carrito.jpg" class="img-fluid" width="30px" height="30px">
-            <div>
-                <a class="text-white" href="">Login</a>          
-                <a href="" class="text-white ml-3">
-                    Register             
-                </a>
+        <nav class="navbar bg-primar p-0">
+            <div class="container-fluid  p-3">
+                <a class="navbar-brand">Big Sellers</a>
+                <a href="" class="text-white">Sobre Nosotros</a>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <img src="images/carrito.jpg" class="img-fluid" width="30px" height="30px">
+                <div>
+                    <a class="text-white" href="">Login</a>          
+                    <a href="" class="text-white ml-3">
+                        Register             
+                    </a>
+                </div>
+            </div>
+            <div class="container-fluid bg-second ">
+                <div class="d-flex flex-row">
+                    <a href="" class="text-white">Categorias</a>
+                    <a href="" class="text-white mx-3">Ofertas</a>
+                    <a href="" class="text-white">Aliados</a>
+                </div>
+                    
+                <div class="d-flex justify-content-end">
+                    <a href="" class="text-white mr-3">Mis pedidos</a>
+                    <a href="" class="text-white">Ayuda</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid p-0 m-0">
+            <img src="images/brand.webp" class="img-fluid" alt="Responsive image" >
+        </div>
+        <div class="tag">
+            <h3 class="ml-3 p-1">Lo más vendido</h3>
+        </div>
+        <div class="container-fluid">
+            <div class="card-deck my-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    <form class="form">
+
+                        <h1>Registrate</h1>
+                        <div class="container">
+                            <div class="input-container">
+                                <i class="fa-solid fa-user icon"></i>
+                                <input type="text" placeholder="Nombre completo">
+                            </div>
+
+                            <div class="input-container">
+                                <i class="fa-solid fa-envelope icon"></i>
+                                <input type="text" placeholder="Correo Electronico">
+                            </div>
+
+                            <div class="input-container">
+                                <i class="fa-solid fa-key icon"></i>
+                                <input type="password" placeholder="Contraseña">
+                            </div>
+
+                            <input type="submit" value="Registrate" class="button">
+                                <p>Al registrate aceptas nuestras condiciones de uso y politicas de privacidad</p>
+                                <p> ¿Ya tienes una cuenta?<a class="link" href="loginvista.html">Iniciar sesion</a></p>
+
+
+                        </div>
+                    </form>
+                    <form class="form">
+
+                        <h1>Login</h1>
+                        <div class="container">
+                        </div>
+                            <div class="input-container">
+                                <i class="fa-solid fa-envelope icon"></i>
+                                <input type="text" placeholder="Correo Electronico">
+                            </div>
+
+                            <div class="input-container">
+                                <i class="fa-solid fa-key icon"></i>
+                                <input type="password" placeholder="Contraseña">
+                            </div>
+
+                            <input type="submit" value="Login" class="button">
+                               <p> ¿No tienes una cuenta?<a class="link" href="registrarvista.html">Registrate</a></p>
+
+
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-         <div class="container-fluid bg-second ">
-            <div class="d-flex flex-row">
-                <a href="" class="text-white">Categorias</a>
-                <a href="" class="text-white mx-3">Ofertas</a>
-                <a href="" class="text-white">Aliados</a>
-            </div>
-                
-            <div class="d-flex justify-content-end">
-                <a href="" class="text-white mr-3">Mis pedidos</a>
-                <a href="" class="text-white">Ayuda</a>
-            </div>
-        </div>
-    </nav>
-    <div class="container-fluid p-0 m-0">
-        <img src="images/brand.webp" class="img-fluid" alt="Responsive image" >
-    </div>
-    <div class="tag">
-        <h3 class="ml-3 p-1">Lo más vendido</h3>
-    </div>
-    <div class="container-fluid">
-        <div class="card-deck my-4">
-            <div class="card">
-                <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="images/brand.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-          </div>
-    </div>
+    <script src="https://kit.fontawesome.com/6f123491f8.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
         /*unction prueba(){
             document.getElementById('pipe').append('sobre nosotros')
